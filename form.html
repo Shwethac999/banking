@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+    <form onsubmit="return validation()" action="link.html" target="_blank">
+        <label> First Name : </label>
+        <input type="text" id="firstname"  class="common" placeholder="Enter first name"><br>
+        <span id="fn" style="color: red;"></span><br>
+        <label>Last Name : </label>
+        <input type="text" id="lastname" class="common" placeholder="Enter last name"><br>
+        <span id="ln" style="color: red;"></span><br>
+        <label>  Email-Add : </label>
+         <input type="email" class="common"placeholder="Enter Email-id" ><br>
+         <span id="mail" style="color: red;"></span><br>
+         <label>  Moblie-No : </label>
+         <select name="isd" id="sel">
+          <option value="India">+91</option>
+          <option value="china">+86</option>
+          <option value="japan">+81</option>
+          <option value="saudi">+966</option>
+          <option value="singapore">+65</option>
+          <option value="south korea">+82</option>
+          <option value="switzerland">+41</option>
+
+         </select>
+         <input type="text" class="common"placeholder="Enter mobile number" id="phone"><br>
+         <span id="mobile" style="color: red;"></span><br>
+         <label>Gender</label><br><br>
+         <input type="radio" value="Male" name="Gender">Male
+         <input type="radio" value="female" name="Gender">Female
+         <input type="radio" value="others" name="Gender">Others <br><br>
+         <label>Birth Date :</label>
+         <input type="date"  class="common"><br><br>
+         <label>Password : </label>
+         <input type="password"  id="password" class="common" placeholder="plese enter password"><br>
+         <span id="apassword" style="color: red;"></span><br>
+         <label>confirm <br> Password : </label>
+         <input type="password" id="confirm_pass" class="common" placeholder="confirm urs password"> <br>
+         <span id="cpassword" style="color: red;"></span><br><br>
+         <input type="submit" value="Sign-in" id="sign">
+    </form>
+</div>
+<script type="text/javascript" src="form.js"></script>
+<br>
+<div style="float: left;">
+<a href=""><img src="Google play.png" alt="" width="200px" style="float: left;"></a>
+<a href=""><img src="apple.png" alt="" width="200px" style="float: right;"></a>
+</div>
+<br><br><br>
+<table id="details">
+<tr>
+    <td id="one"> <h3>Contact Us</h3> 
+        <p>SUN BANK
+            <br> HSR LOYOUT <br>
+            Benglore
+        </p>
+ </td>
+ <td><p>@Copyright <br>
+    Sun bank Ltd
+
+ </p></td>
+<td><p>
+    Terms and Conditions
+</p></td>
+<td>
+    <p>Privacy policy</p>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

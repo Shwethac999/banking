@@ -1,0 +1,44 @@
+body{
+    background-image: url(form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color:silver;
+    height: 550px;
+    width: 400px;
+}
+div form label{
+    font-size: x-large;
+}
+.common{
+    width:160px;
+    height: 22px;
+    border-radius: 5%;
+}
+form{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+#sign{
+    margin-left: 150px;
+}
+div{
+    margin-left: 450px;
+   border-radius: 2%;
+}
+
+#details{
+    height: 100px;
+    width: 100%;
+    
+    color: white;
+    
+}
+#one{
+    padding-left: 70px;
+}

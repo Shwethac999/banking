@@ -1,0 +1,35 @@
+
+
+     body{
+            background-image: url(mobile.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(208 234 235);
+            margin-left: 500px;
+            border-radius: 10%;
+            margin-top: 100px;
+        }
+        form{
+            padding-top: 50px;
+        }
+        h3{
+            margin-left: 100px;
+        }
+        #sub{
+            margin-left: 120px;
+        }
+        #forgot{
+            margin-right: 50px;
+            text-decoration: none;
+        }
+        #details{
+            height: 100px;
+            width: 100%;
+            
+            color: rgb(61, 22, 21);
+            
+        }

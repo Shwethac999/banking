@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="transaction.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="logo" style="float: left;">
+        <h2 id="welcome"> SUN BANK 24 X 7 SERVICE</h2>
+        <h4>Service On FingerTip</h4>
+      </div>
+      <div class="logout" style="float: right; ">
+     <a href="end.html"><button onclick="">LOGOUT</button></a>
+      </div>
+    </div>
+    <br>
+    <h2 style="margin-left:520px;">Online Bank transaction</h2>
+    <br><br>
+    <table style="margin-left: 350px;">
+        <tr >
+            <td>
+                <h4>MONEY TRANSACTION</h4>
+                <br>
+                 <input type="text" id="amount" placeholder="Enter amount in ₹" class="amount_entry">
+                 <br><br>
+                <select name="selection" id="entry" class="amount_entry1">
+                 <option value="Deposit">Deposit</option>
+                 <option value="WithDraw">WithDraw</option>
+                </select>
+                <br><br>
+                <input type="text" id="disc" placeholder="-Discription-" class="amount_entry">
+                <br><br>
+                <button id="btn" class="amount_entry2" >Process</button>
+        
+            </td>
+            <td id="ss">
+               <h3>Total Available balance</h3>
+               <p style="padding-left: 70px;" > ₹ <span id="total_balance">0</span> /-</p>
+            </td>
+        </tr>
+
+    </table>
+    <br><br>
+    <table id="total_deposit" style="float: left;">
+        <tr><td>Total Deposit 
+            <br>
+            <p id="deposit1">0 </p>
+        </td>
+        </tr>
+        <tr>
+            <th style="padding: 25px;">Date</th> 
+            <th style="padding: 25px;">Time</th> 
+            <th style="padding: 25px;">Rupee</th>
+            <th style="padding: 25px;">-Discription-</th>
+        </tr>
+    </table>
+    <table id="total_deposit1" style="float: right;">
+        <tr><td>Total WithDraw
+            <br>
+            <p id="deposit2">0 </p>
+        </td>
+        </tr>
+        <tr>
+            <th style="padding: 25px;">Date</th> 
+            <th style="padding: 25px;">Time</th> 
+            <th style="padding: 25px;">Rupee</th>
+            <th style="padding: 25px;">-Discription-</th>
+        </tr>
+    </table>
+    <br><br><br><br>
+    <table id="details">
+        <tr>
+            <td id="one"> <h3>Contact Us</h3> 
+                <p>SUN BANK
+                    <br> HSR LOYOUT <br>
+                    Benglore
+                </p>
+         </td>
+         <td><p>@Copyright <br>
+            Sun bank Ltd
+        
+         </p></td>
+        <td><p>
+            Terms and Conditions
+        </p></td>
+        <td>
+            <p>Privacy policy</p>
+        </td>
+        </tr>
+        </table>
+</body>
+<script type="text/javascript" src="transaction.js"> </script>
+</html>
